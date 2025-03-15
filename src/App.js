@@ -8,12 +8,12 @@ function App() {
 
         <label className='labelPractice'>SamplePractice</label>
 
-        <input type="text" className="name"/>
+        <input type="range" className="name"/>
+        
 
-        <select className="dropdown">
-        <option value="1">Red </option> 
-        </select>       
-
+        <select>
+          
+        </select>
         <ul>
 	<li key ="vkp">NAMA </li>
 	<li key ="sse">SSE </li>
