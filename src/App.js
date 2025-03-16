@@ -7,7 +7,11 @@ function App() {
       <div className="company-details-container">
           <form className='company-details'>
 
-            <div className='company-details-child'>   </div>
+            <div className='company-details-child'>
+              <label className='companyNameLabel'>Company Name </label>
+              <input type='text' className='companyNameText'/>
+              
+              </div>
             <div className='company-details-child'>   </div>
             <div className='company-details-child'>   </div>
             <div className='company-details-child'>   </div>

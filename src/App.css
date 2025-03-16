@@ -11,12 +11,16 @@
 {
     display: flex;
     background-color: blueviolet;
-    width: 500px;
-    /* height: 500px; */
-
+    width: 500px;    
+    flex-direction: column;
 }
 
 .company-details-child
 {
-    height: 25px;
+    display: flex;
+    height: 125px;
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
 }
