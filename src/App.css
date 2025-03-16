@@ -21,6 +21,18 @@
     height: 125px;
     background-color: antiquewhite;
     align-items: center;
-    justify-content: center;
-    gap: 25px;
+    justify-content: center;   
+    
+}
+
+.company-Name-Label
+{
+    width: 250px;
+    height: 125px;
+}
+
+.company-Name-Text
+{
+    width: 250px;
+    height: 125px;
 }

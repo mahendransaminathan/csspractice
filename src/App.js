@@ -8,13 +8,17 @@ function App() {
           <form className='company-details'>
 
             <div className='company-details-child'>
-              <label className='companyNameLabel'>Company Name </label>
-              <input type='text' className='companyNameText'/>
-              
-              </div>
-            <div className='company-details-child'>   </div>
-            <div className='company-details-child'>   </div>
-            <div className='company-details-child'>   </div>
+            <div className='company-Name-Label'>
+
+            </div>
+            <div className='company-Name-Text'>
+
+            </div>
+            </div>
+            <div className='company-details-child'>               
+            </div>
+            <div className='company-details-child'></div>
+            <div className='company-details-child'></div>
 
           </form>      
       </div>
