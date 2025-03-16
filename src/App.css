@@ -1,7 +1,7 @@
 .company-details-container
 {
     display: flex;
-    background-color: blue;
+    background-color: #DCB32C;
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -22,7 +22,6 @@
     
     align-items: center;
     justify-content: center;   
-    
     
 }
 
@@ -174,4 +173,63 @@ select
     height: 125px;
     align-items: center;
     justify-content: flex-start;
+}
+
+.button-empty
+{
+    
+    width: 250px;
+    height: 125px;
+    
+}
+
+.button-Text
+{
+    display: flex;
+    width: 250px;
+    height: 125px;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttontext
+{
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: #00007F;
+}
+
+@media (max-width: 768px)
+{
+    .company-details-container
+    {
+        display: flex;
+        background-color: DCB32C;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .company-details
+    {
+        display: flex;
+        
+        width: 250px;    
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .company-details-child
+    {
+        display: flex;
+        height: 60px;
+        
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;       
+        
+    }
+    
 }

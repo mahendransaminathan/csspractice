@@ -74,6 +74,18 @@ function App() {
             </div>
             </div>
 
+            <div className='company-details-child'>
+            <div className='button-empty'>
+              
+            </div>
+            <div className='button-Text'>
+              <button className='buttontext'>
+              Submit
+              </button>
+            </div>
+            </div>
+
+
           </form>      
       </div>
     </div>
