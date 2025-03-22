@@ -1,11 +1,21 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Routes, Route, useNavigate } from 'react-router-dom';
 import './App.css';
+import Mui from './Mui.js';
 
-function App() {
+function FormPage() {
+
+  const navigate = useNavigate();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    navigate("/Mui");
+  }
+
   return (
     <div className="App">
       <div className="company-details-container">
-          <form className='company-details'>
+          <form className='company-details' onSubmit={handleSubmit}>
 
             <div className='company-details-child'>
             <div className='company-Name-Label'>
@@ -92,4 +102,13 @@ function App() {
   );
 }
 
+
+function App() {
+  return (
+      <Routes>
+        <Route path="/" element={<FormPage />} />
+        <Route path="Mui" element={<Mui />} />        
+      </Routes>
+  );
+}
 export default App;
